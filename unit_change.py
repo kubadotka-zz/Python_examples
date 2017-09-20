@@ -1,7 +1,7 @@
 def unit_change():
 
     print("That program changes units to seconds ( readable by shell )")
-    unit = str(input("Write unit of time: (month, day, hour, minute)"))
+    unit = str(input("Write unit of time: (month, day, hour, minute): "))
 
 
 
@@ -20,12 +20,5 @@ def unit_change():
     elif unit=="minute":
         amount = int(input("Write amount of minutes: "))
         print("It's " + str(amount * 60) + " seconds")
-
-    else:
-        print("Write unit of time: (month, day, hour, minute")
-    
-
-
-    
 
 unit_change()
